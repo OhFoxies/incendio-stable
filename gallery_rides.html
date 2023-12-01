@@ -1,0 +1,389 @@
+DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/incendio/incendio-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name='keywords' content='Pensjonat dla koni, Ptakowice, Jazda konna, Konie' />
+    <meta name='description' content='Stajnia Incendio - jesteśmy kameralną stajnią w Ptakowicach.
+    Oferujemy pensjonat dla koni oraz jazdy dla dzieci i dorosłych' />
+    <meta name='author' content='Wojciech Rejner' />
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <link rel='stylesheet' type='text/css' href='gallery.css'/>
+    <title>Zdjęcia z jazd</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="helper" id="darker"></div>
+<nav id='navbar'>
+    <div class="nav-container">
+        <a class="logo" href="index.html">
+            <img src="images/incendio/logo.png" alt="">
+            <div class="nav-logo">
+                <div class="logo-line"></div>
+                <span class="logo-text">stajnia incendio</span>
+                <div class="logo-line"></div>
+            </div>
+        </a>
+        <div id="burger" onclick="incendio_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation" id="menu">
+            <a href="index.html"><span class="nav-text">Home</span></a>
+            <a href="prices.html"><span class="nav-text">Cennik</span></a>
+            <a href="education.html"><span class="nav-text">Posty edukacyjne</span></a>
+            <a href="gallery.html"><span class="nav-text">Galeria</span></a>
+            <a style="cursor: pointer" onclick="contact()"><span class="nav-text">Kontakt</span></a>
+            <a href="hotel.html"><span class="nav-text">Pensjonat</span></a>
+        </div>
+    </div>
+</nav>
+<script  src="scripts/menu.js"></script>
+<div class="preview-container"  id="preview-box">
+    <div class="img-preview">
+        <div class="img-preview-close-button">
+            <img class="close-img" src="images/icons/x.png" alt="close button" id="close-button" onclick="closepreview()">
+        </div>
+        <div class="img-preview-img"><img class="photo-in-preview" loading="lazy" src="" id="show-img" alt=""></div>
+    </div></div>
+<div class="gallery-sect">
+    <h1>ZDJĘCIA Z JAZD</h1>
+    <div class="photos-grid">
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13327467_1576087822689344_9039965145431738303_n.jpg" alt="13327467_1576087822689344_9039965145431738303_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13394166_1576087876022672_2648350439323729379_n.jpg" alt="13394166_1576087876022672_2648350439323729379_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13403217_1577981012500025_7057930360183780339_o.jpg" alt="13403217_1577981012500025_7057930360183780339_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13403850_1577981029166690_6857171092021097938_o.jpg" alt="13403850_1577981029166690_6857171092021097938_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13403978_1577981169166676_9072165054592667453_o.jpg" alt="13403978_1577981169166676_9072165054592667453_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13407004_1577981079166685_2837349672546718717_n.jpg" alt="13407004_1577981079166685_2837349672546718717_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13411740_1577981019166691_879984683691341713_o.jpg" alt="13411740_1577981019166691_879984683691341713_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13412217_1577981092500017_9156176496867573449_o.jpg" alt="13412217_1577981092500017_9156176496867573449_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13413575_1576818319282961_1962342818986186178_n.jpg" alt="13413575_1576818319282961_1962342818986186178_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13413653_1577981142500012_3242960162451837315_n.jpg" alt="13413653_1577981142500012_3242960162451837315_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13415420_1576087882689338_2611967745353859915_o.jpg" alt="13415420_1576087882689338_2611967745353859915_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13417479_1577981219166671_5360907187062480765_n.jpg" alt="13417479_1577981219166671_5360907187062480765_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13418447_1576087829356010_16184915220746039_o.jpg" alt="13418447_1576087829356010_16184915220746039_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13418675_1577981139166679_7807182287232238089_o.jpg" alt="13418675_1577981139166679_7807182287232238089_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13418931_1577981022500024_5936747127482869982_n.jpg" alt="13418931_1577981022500024_5936747127482869982_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13427841_1576818825949577_613888173487679065_n.jpg" alt="13427841_1576818825949577_613888173487679065_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13434695_1576818812616245_7120816868973027889_n.jpg" alt="13434695_1576818812616245_7120816868973027889_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13434896_1579118599052933_5257143292106396607_n.jpg" alt="13434896_1579118599052933_5257143292106396607_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13443134_1577981069166686_4832871266824040839_o.jpg" alt="13443134_1577981069166686_4832871266824040839_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/13708229_1591329894498470_5253541068855903627_o.jpg" alt="13708229_1591329894498470_5253541068855903627_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/18319005_1709676852663773_8282944234875746172_o.jpg" alt="18319005_1709676852663773_8282944234875746172_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/22861726_1777950365836421_5766319689184588113_o.jpg" alt="22861726_1777950365836421_5766319689184588113_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/22861751_1777950439169747_1329062533960981159_o.jpg" alt="22861751_1777950439169747_1329062533960981159_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/23632368_1784603165171141_6295559192594360939_o.jpg" alt="23632368_1784603165171141_6295559192594360939_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/26910163_1811316362499821_8199853935608179610_o.jpg" alt="26910163_1811316362499821_8199853935608179610_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/27173257_1813419612289496_5232190325017374474_o.jpg" alt="27173257_1813419612289496_5232190325017374474_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/29497511_1836425309988926_8499190046228742144_n.jpg" alt="29497511_1836425309988926_8499190046228742144_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/319679801_455651283245499_4468055219781398310_n.jpg" alt="319679801_455651283245499_4468055219781398310_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/319725311_533485028807484_500335804085635167_n.jpg" alt="319725311_533485028807484_500335804085635167_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/319833839_2074980522690773_5984752391590320658_n.jpg" alt="319833839_2074980522690773_5984752391590320658_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/319891337_1215013199366586_4458048691774730494_n.jpg" alt="319891337_1215013199366586_4458048691774730494_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/320009856_3279303358979215_3901103750166445615_n.jpg" alt="320009856_3279303358979215_3901103750166445615_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/320396281_750409226692486_3024700207347888701_n.jpg" alt="320396281_750409226692486_3024700207347888701_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/320672685_712217476834060_4533213497027074333_n.jpg" alt="320672685_712217476834060_4533213497027074333_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/320715487_723376945556025_395891574321949668_n.jpg" alt="320715487_723376945556025_395891574321949668_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/320811595_2959100837724950_4725593966303014782_n.jpg" alt="320811595_2959100837724950_4725593966303014782_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/321802848_840162830402960_49186198781125136_n.jpg" alt="321802848_840162830402960_49186198781125136_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/322130610_706603044184125_9009727713426813778_n.jpg" alt="322130610_706603044184125_9009727713426813778_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/322187293_3655627644723376_1644238501054317056_n.jpg" alt="322187293_3655627644723376_1644238501054317056_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/324402221_554518416601305_821921082518456500_n.jpg" alt="324402221_554518416601305_821921082518456500_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/324403829_586125463326189_2805060667320864065_n.jpg" alt="324403829_586125463326189_2805060667320864065_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/325521795_705718264498542_857915893476808547_n.jpg" alt="325521795_705718264498542_857915893476808547_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/32750596_1861422497489207_4900075059260948480_n.jpg" alt="32750596_1861422497489207_4900075059260948480_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/32868390_1861422464155877_7556956001958625280_n.jpg" alt="32868390_1861422464155877_7556956001958625280_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/32914541_1861422370822553_2189161121582153728_n.jpg" alt="32914541_1861422370822553_2189161121582153728_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/34258746_1868007806830676_7018508978694914048_n.jpg" alt="34258746_1868007806830676_7018508978694914048_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/41606110_1949192775378845_1459748964596187136_n.jpg" alt="41606110_1949192775378845_1459748964596187136_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/41781107_1950523725245750_6071316149868429312_n.jpg" alt="41781107_1950523725245750_6071316149868429312_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/41784408_1950546608576795_9179779780952719360_n.jpg" alt="41784408_1950546608576795_9179779780952719360_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/43319894_1961535297477926_2559592086538027008_n.jpg" alt="43319894_1961535297477926_2559592086538027008_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/43330204_1961536454144477_1533647136804044800_n.jpg" alt="43330204_1961536454144477_1533647136804044800_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/zdjecia_z_jazd/44351694_1967869393511183_2231470591011979264_n.jpg" alt="44351694_1967869393511183_2231470591011979264_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gallery-back">
+    <a href="gallery.html">Powrót</a>
+</div>
+<script type="text/javascript">
+    const preview = src => {
+        if (getComputedStyle(document.getElementById("preview-box"), null).display === 'none') {
+            document.body.classList.toggle("lock")
+            document.getElementById('show-img').src = src
+            document.getElementById("preview-box").style.display = 'flex'
+        }
+    }
+</script>
+<script type="text/javascript">
+    const closepreview = () => {
+        document.body.classList.toggle("lock")
+        document.getElementById("preview-box").style.display = 'none'
+    }
+</script>
+<div class="top" id="button-up"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col" id="contact1">
+                <h4>Jazdy dla dzieci, hipoterapia</h4>
+                <ul>
+                    <li><a href="tel:533018121"><img src="images/icons/phone.png" alt=""/></a> <a href="tel:533018121"><p>533 018 121</p></a></li>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact2">
+                <h4>Jazdy dla dorosłych, młodzieży</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact3">
+                <h4>Pensjonat dla koni, inne usługi stajni</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                    <li><a href="mailto:incendiotg@gmail.com"><img src="images/icons/email.png" alt=""/></a> <a href="mailto:incendiotg@gmail.com"><p>incendiotg@gmail.com</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Gdzie jeszcze nas znajdziesz</h4>
+                <a target="_blank" href="https://www.facebook.com/stajniatg">
+                    <div class="social">
+                        <img src="images/icons/f_logo_RGB-Black_58.png" alt="fblogo" /><span>Facebook</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            <span>Stajnia Incendio. Wszelkie prawa zastrzeżone. Uznania autorstwa <a href="https://www.facebook.com/wojtek.rejner.9"> Wojciech Rejner.</a></span>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/contact.js"></script>
+</body>
+</html>

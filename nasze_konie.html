@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/incendio/incendio-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name='keywords' content='Pensjonat dla koni, Ptakowice, Jazda konna, Konie' />
+    <meta name='description' content='Stajnia Incendio - jesteśmy kameralną stajnią w Ptakowicach.
+    Oferujemy pensjonat dla koni oraz jazdy dla dzieci i dorosłych' />
+    <meta name='author' content='Wojciech Rejner' />
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <link rel='stylesheet' type='text/css' href='gallery.css'/>
+    <title>Nasze konie</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="helper" id="darker"></div>
+<nav id='navbar'>
+    <div class="nav-container">
+        <a class="logo" href="index.html">
+            <img src="images/incendio/logo.png" alt="">
+            <div class="nav-logo">
+                <div class="logo-line"></div>
+                <span class="logo-text">stajnia incendio</span>
+                <div class="logo-line"></div>
+            </div>
+        </a>
+        <div id="burger" onclick="incendio_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation" id="menu">
+            <a href="index.html"><span class="nav-text">Home</span></a>
+            <a href="prices.html"><span class="nav-text">Cennik</span></a>
+            <a href="education.html"><span class="nav-text">Posty edukacyjne</span></a>
+            <a href="gallery.html"><span class="nav-text">Galeria</span></a>
+            <a style="cursor: pointer" onclick="contact()"><span class="nav-text">Kontakt</span></a>
+            <a href="hotel.html"><span class="nav-text">Pensjonat</span></a>
+        </div>
+    </div>
+</nav>
+<script  src="scripts/menu.js"></script>
+<div class="preview-container"  id="preview-box">
+    <div class="img-preview">
+        <div class="img-preview-close-button">
+            <img class="close-img" src="images/icons/x.png" alt="close button" id="close-button" onclick="closepreview()">
+        </div>
+        <div class="img-preview-img"><img class="photo-in-preview" loading="lazy" src="" id="show-img" alt=""></div>
+    </div></div>
+<div class="gallery-sect">
+    <h1>NASZE KONIE</h1>
+    <div class="photos-grid">
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/106582165_2403194306645354_2590849868995805802_n.jpg" alt="106582165_2403194306645354_2590849868995805802_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/106650795_2403194259978692_243716561283760641_n.jpg" alt="106650795_2403194259978692_243716561283760641_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/106980342_2403194279978690_1009700634949498288_n.jpg" alt="106980342_2403194279978690_1009700634949498288_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/108285078_2413195815645203_3512978267350706012_n.jpg" alt="108285078_2413195815645203_3512978267350706012_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13327421_1576816899283103_3479125338839211822_n.jpg" alt="13327421_1576816899283103_3479125338839211822_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13330946_1576091282688998_4927874312554028860_n.jpg" alt="13330946_1576091282688998_4927874312554028860_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13330973_1576091219355671_2474074920907822849_n.jpg" alt="13330973_1576091219355671_2474074920907822849_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13335791_1576091259355667_5626372956042921141_n.jpg" alt="13335791_1576091259355667_5626372956042921141_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13339726_1576091286022331_2759290242446629104_n.jpg" alt="13339726_1576091286022331_2759290242446629104_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13343093_1576091266022333_8204970270068088692_n.jpg" alt="13343093_1576091266022333_8204970270068088692_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13344718_1576816952616431_8424150071873263344_n.jpg" alt="13344718_1576816952616431_8424150071873263344_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13346495_1576817179283075_242796480267035180_n.jpg" alt="13346495_1576817179283075_242796480267035180_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13346529_1576817539283039_8853315961239441910_n.jpg" alt="13346529_1576817539283039_8853315961239441910_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13346537_1576822432615883_7348254146634053088_n.jpg" alt="13346537_1576822432615883_7348254146634053088_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13346910_1576817202616406_1652946710091183942_n.jpg" alt="13346910_1576817202616406_1652946710091183942_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13392186_1576091232689003_244790118187762668_o.jpg" alt="13392186_1576091232689003_244790118187762668_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13406919_1576817269283066_2447678987251444810_n.jpg" alt="13406919_1576817269283066_2447678987251444810_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13407026_1576817062616420_1956672062321669171_n.jpg" alt="13407026_1576817062616420_1956672062321669171_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13407082_1576821682615958_819966056057967913_n.jpg" alt="13407082_1576821682615958_819966056057967913_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13413593_1576091216022338_2709337903376738878_n.jpg" alt="13413593_1576091216022338_2709337903376738878_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13417630_1576817599283033_125187163244902255_n.jpg" alt="13417630_1576817599283033_125187163244902255_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13434888_1576817022616424_5724536173721622377_n.jpg" alt="13434888_1576817022616424_5724536173721622377_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/nasze_konie/13435424_1576817455949714_6342076068556550289_n.jpg" alt="13435424_1576817455949714_6342076068556550289_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+        </div>
+    </div>
+</div>
+<div class="gallery-back">
+    <a href="gallery.html">Powrót</a>
+</div>
+<script type="text/javascript">
+    const preview = src => {
+        if (getComputedStyle(document.getElementById("preview-box"), null).display === 'none') {
+            document.body.classList.toggle("lock")
+            document.getElementById('show-img').src = src
+            document.getElementById("preview-box").style.display = 'flex'
+        }
+    }
+</script>
+<script type="text/javascript">
+    const closepreview = () => {
+        document.body.classList.toggle("lock")
+        document.getElementById("preview-box").style.display = 'none'
+    }
+</script>
+<div class="top" id="button-up"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col" id="contact1">
+                <h4>Jazdy dla dzieci, hipoterapia</h4>
+                <ul>
+                    <li><a href="tel:533018121"><img src="images/icons/phone.png" alt=""/></a> <a href="tel:533018121"><p>533 018 121</p></a></li>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact2">
+                <h4>Jazdy dla dorosłych, młodzieży</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact3">
+                <h4>Pensjonat dla koni, inne usługi stajni</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                    <li><a href="mailto:incendiotg@gmail.com"><img src="images/icons/email.png" alt=""/></a> <a href="mailto:incendiotg@gmail.com"><p>incendiotg@gmail.com</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Gdzie jeszcze nas znajdziesz</h4>
+                <a target="_blank" href="https://www.facebook.com/stajniatg">
+                    <div class="social">
+                        <img src="images/icons/f_logo_RGB-Black_58.png" alt="fblogo" /><span>Facebook</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            <span>Stajnia Incendio. Wszelkie prawa zastrzeżone. Uznania autorstwa <a href="https://www.facebook.com/wojtek.rejner.9"> Wojciech Rejner.</a></span>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/contact.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/incendio/incendio-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name='keywords' content='Pensjonat dla koni, Ptakowice, Jazda konna, Konie'/>
+    <meta name='description' content='Stajnia Incendio jest kameralną stajnią, która wciąż się rozwija. Obecnie oferujemy szeroki zakres usług: jazdy rekreacyjne, jazdy sportowe, wyjazdy w teren, wyjazdy na treningi sportowe z naszymi końmi do innych stajni (na hale), hipoterapia, golenie koni, wypożyczanie koni na odznaki/zawody, transport koni, pomoc w kupnie konia, zajeżdżanie/układanie koni, werkowanie/kucie.' />
+    <meta name='author' content='Wojciech Rejner'/>
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <title>Stajnia Incendio - cennik</title>
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="helper" id="darker"></div>
+<nav id='navbar'>
+    <div class="nav-container">
+        <a class="logo" href="index.html">
+            <img src="images/incendio/logo.png" alt="">
+            <div class="nav-logo">
+                <div class="logo-line"></div>
+                <span class="logo-text">stajnia incendio</span>
+                <div class="logo-line"></div>
+            </div>
+        </a>
+        <div id="burger" onclick="incendio_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation" id='menu'>
+            <div>
+                <a href="index.html"><span class="nav-text">Home</span></a>
+                <a href="prices.html"><span class="nav-text">Cennik</span></a>
+                <a href="education.html"><span class="nav-text">Posty edukacyjne</span></a>
+                <a href="gallery.html"><span class="nav-text">Galeria</span></a>
+                <a style="cursor: pointer" onclick="contact()"><span class="nav-text">Kontakt</span></a>
+                <a href="hotel.html"><span class="nav-text">Pensjonat</span></a>
+            </div>
+        </div>
+    </div>
+</nav>
+<main>
+    <section class="prices">
+        <div class="section-tittle" style="justify-self: flex-start">
+            <span><strong>CENNIK JAZD</strong></span>
+        </div>
+        <div class="price-section">
+            <div class="price">
+                <div class="price-text-section">
+                    <p class="ride-type">OPROWADZANKA</p>
+                    <p class="price-value">30zł/h</p>
+                    <p class="time"><strong>Na oprowadzankę wystarczy przyjść na umówioną godzinę!</strong></p>
+                    <div class="price-text"><p>Oferujemy oprowadzanki
+                        dla dzieci od lat 4 po naszych pięknych okolicach.
+                        Oprowadzanki prowadzone są na małym kucyku oraz na dwóch hucułach. Pod czas jazdy instruktor
+                        wykonuje z dzieckiem ćwiczenia na równowagę oraz na pogłębienie zaufania z koniem. Gdy jeździec
+                        osiągnie świadomość ruchów wykonywanych przez niego na grzbiecie konia to można wtedy przejść na
+                        jazdy na lonży. </p>
+                    </div>
+                    <div class="call" onclick="contact()">
+                        <span>Zapisz się</span>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price-text-section">
+                    <p class="ride-type">LONŻA</p>
+                    <p class="price-value">60zł/h</p>
+                    <p class="time"><strong>Na jazdę na lonży należy przyjść 10 minut przed umówioną godziną!</strong></p>
+                    <div class="price-text"><p>Nie ma
+                        ograniczeń, jeśli chodzi o górną granicę wieku, jeśli zdrowie pozwala to
+                        w każdym wieku można zacząć naukę. Na lonży wszystkiego uczymy się od podstaw. Nie musisz nic
+                        potrafić, na lonże przychodzi się głównie po to, by właśnie się czegoś nauczyć. Dobieramy ćwiczenia
+                        adekwatne do umiejętności jeźdźca. Z lonży można przejść na jazdy samodzielne w momencie, gdy
+                        instruktor zadecyduje, że jeździec zdobył odpowiednie doświadczenie i wiedzę. </p>
+                    </div>
+                    <div class="call" onclick="contact()">
+                        <span>Zapisz się</span>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price-text-section">
+                    <p class="ride-type">JAZDA SAMODZIELNA</p>
+                    <p class="price-value">80zł/h</p>
+                    <p class="time"><strong>Na jazdę samodzielną należy przyjść minimum 30 minut przed umówioną
+                        godziną!</strong></p>
+                    <div class="price-text"><p>
+                        O tego rodzaju jazdy możemy mówić, gdy jeździec potrafi samemu pójść po konia z
+                        pastwiska/kwatery/boksu, samemu przygotować sprzęt do jazdy, samemu wyczyścić konia oraz poruszać
+                        się swobodnie w stępie, oraz kłusie. Dzięki temu możemy skupiać się na dalszym rozwoju i szlifować
+                        swoje umiejętności. U nas na jazdach samodzielnych rekreacyjnych również wprowadzamy elementy klasy
+                        N ujeżdżenia czy skoki do 40 cm, które uważamy na podstawowe wyszkolenie.</p>
+                    </div>
+                    <div class="call" onclick="contact()">
+                        <span>Zapisz się</span>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price-text-section">
+                    <p class="ride-type">JAZDA SPORTOWA</p>
+                    <p class="price-value">120zł/h</p>
+                    <p class="time"><strong>Na jazdę sportową należy przyjść minimum 30 minut przed umówioną
+                        godziną!</strong></p>
+                    <div class="price-text"><p>Są u nas możliwe jazdy sportowe dla osób swobodnie poruszających się w TRZECH
+                        CHODACH konia.
+                        Tak jak w przypadku jazd samodzielnych należy samodzielnie przygotować konia do jazdy </p>
+                    </div>
+                    <div class="call" onclick="contact()">
+                        <span>Zapisz się</span>
+                    </div>
+                </div>
+            </div>
+            <div class="price">
+                <div class="price-text-section">
+                    <p class="ride-type">HIPOTERAPIA</p>
+                    <p class="price-value">50zł/h</p>
+                    <p class="time"><strong>Na hipoterapie wystarczy przyjść na umówioną godzinę!</strong></p>
+                    <div class="price-text"><p>Forma jak i przebieg hipoterapii są ściśle dostosowywane pod potrzeby
+                        jeźdźca. Raz może to być zwykła praca z koniem z ziemi a w innym przypadku oprowadzanka lub
+                        ćwiczenia mające na celu wzmocnienie mięśni jeźdźca.</p>
+                    </div>
+                    <div class="call" onclick="contact()">
+                        <span>Zapisz się</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prices-other">
+        <div class="section-tittle" style="justify-self: flex-start">
+            <span><strong>inne oferty stajni</strong></span>
+        </div>
+        <div class="price">
+            <div class="price-text-section">
+                <p class="ride-type">Oferujemy szeroki zakres usług</p>
+                <p class="time"><strong>Cena tych usług zawsze może być inna, w celu ustalenia ceny prosimy do nas zadzwonić</strong></p>
+                <div class="price-text-other">
+                    <ul>
+                        <li>Pensjonat dla koni</li>
+                        <li>Golenie koni</li>
+                        <li>Kucie koni</li>
+                        <li>Wypożyczanie koni na odznaki, zawody</li>
+                        <li>Transport koni</li>
+                        <li>Pomoc w kupnie konia</li>
+                        <li>Zajeżdżanie, układanie koni</li>
+                        <li>Transport koni</li>
+                        <li>Szkolenia</li>
+                        <li>Dojazd do konia klienta</li>
+                    </ul>
+                </div>
+                <div class="call" onclick="contact_other()">
+                    <span>kontakt</span>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<div class="top" id="button-up"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col" id="contact1">
+                <h4>Jazdy dla dzieci, hipoterapia</h4>
+                <ul>
+                    <li><a href="tel:533018121"><img src="images/icons/phone.png" alt=""/></a> <a href="tel:533018121"><p>533 018 121</p></a></li>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact2">
+                <h4>Jazdy dla dorosłych, młodzieży</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact3">
+                <h4>Pensjonat dla koni, inne usługi stajni</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                    <li><a href="mailto:incendiotg@gmail.com"><img src="images/icons/email.png" alt=""/></a> <a href="mailto:incendiotg@gmail.com"><p>incendiotg@gmail.com</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Gdzie jeszcze nas znajdziesz</h4>
+                <a target="_blank" href="https://www.facebook.com/stajniatg">
+                    <div class="social">
+                        <img src="images/icons/f_logo_RGB-Black_58.png" alt="fblogo" /><span>Facebook</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            <span>Stajnia Incendio. Wszelkie prawa zastrzeżone. Uznania autorstwa <a href="https://www.facebook.com/wojtek.rejner.9"> Wojciech Rejner.</a></span>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/contact.js"></script>
+</body>
+</html>

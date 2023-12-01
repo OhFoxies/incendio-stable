@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+        <link rel="icon" type="image/x-icon" href="images/incendio/incendio-logo.png">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name='keywords' content='Pensjonat dla koni, Ptakowice, Jazda konna, Konie' />
+        <meta name='description' content='Stajnia Incendio - jesteśmy kameralną stajnią w Ptakowicach.
+    Oferujemy pensjonat dla koni oraz jazdy dla dzieci i dorosłych' />
+        <meta name='author' content='Wojciech Rejner' />
+        <link rel='stylesheet' type='text/css' href='style.css'/>
+        <link rel='stylesheet' type='text/css' href='gallery.css'/>
+        <title>Zdjęcia z półkoloni</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+<div class="helper" id="darker"></div>
+<nav id='navbar'>
+    <div class="nav-container">
+        <a class="logo" href="index.html">
+            <img src="images/incendio/logo.png" alt="">
+            <div class="nav-logo">
+                <div class="logo-line"></div>
+                <span class="logo-text">stajnia incendio</span>
+                <div class="logo-line"></div>
+            </div>
+        </a>
+        <div id="burger" onclick="incendio_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation" id="menu">
+            <a href="index.html"><span class="nav-text">Home</span></a>
+            <a href="prices.html"><span class="nav-text">Cennik</span></a>
+            <a href="education.html"><span class="nav-text">Posty edukacyjne</span></a>
+            <a href="gallery.html"><span class="nav-text">Galeria</span></a>
+            <a style="cursor: pointer" onclick="contact()"><span class="nav-text">Kontakt</span></a>
+            <a href="hotel.html"><span class="nav-text">Pensjonat</span></a>
+        </div>
+    </div>
+</nav>
+<script  src="scripts/menu.js"></script>
+<div class="preview-container"  id="preview-box">
+    <div class="img-preview">
+        <div class="img-preview-close-button">
+            <img class="close-img" src="images/icons/x.png" alt="close button" id="close-button" onclick="closepreview()">
+        </div>
+        <div class="img-preview-img"><img class="photo-in-preview" loading="lazy" src="" id="show-img" alt=""></div>
+    </div></div>
+<div class="gallery-sect">
+    <h1>ZDJĘCIA Z PÓŁKOLONI</h1>
+    <div class="photos-grid">
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/106569854_2403968023234649_5330345216499212371_n.jpg" alt="106569854_2403968023234649_5330345216499212371_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/106695094_2403968253234626_693310775375036864_n.jpg" alt="106695094_2403968253234626_693310775375036864_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/106783383_2403967973234654_3488997338094951127_n.jpg" alt="106783383_2403967973234654_3488997338094951127_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/107437633_2403968176567967_4605470671409032765_n.jpg" alt="107437633_2403968176567967_4605470671409032765_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108222645_2413193625645422_8725969824907338845_n.jpg" alt="108222645_2413193625645422_8725969824907338845_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108274269_2413193228978795_7504697002599627728_n.jpg" alt="108274269_2413193228978795_7504697002599627728_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108341789_2408582892773162_3023206059470478862_n.jpg" alt="108341789_2408582892773162_3023206059470478862_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108634479_2413192628978855_2287151624864552172_n.jpg" alt="108634479_2413192628978855_2287151624864552172_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108848358_2413195168978601_1347330668002813399_n.jpg" alt="108848358_2413195168978601_1347330668002813399_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/108851410_2413194155645369_5946838113097592927_n.jpg" alt="108851410_2413194155645369_5946838113097592927_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109102866_2414754025489382_4314715163363188491_n.jpg" alt="109102866_2414754025489382_4314715163363188491_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109368633_2413194702311981_3008323377036275587_n.jpg" alt="109368633_2413194702311981_3008323377036275587_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109488313_2414754232156028_4839624273904781017_n.jpg" alt="109488313_2414754232156028_4839624273904781017_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109564743_2414754112156040_2353898831230199422_n.jpg" alt="109564743_2414754112156040_2353898831230199422_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109655555_2414754558822662_6045451237548447217_n.jpg" alt="109655555_2414754558822662_6045451237548447217_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109727993_2414753872156064_5984705221238724939_n.jpg" alt="109727993_2414753872156064_5984705221238724939_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109739033_2414754635489321_8603920017068837471_n.jpg" alt="109739033_2414754635489321_8603920017068837471_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109808434_2417056368592481_377757673192513094_n.jpg" alt="109808434_2417056368592481_377757673192513094_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109815166_2414754418822676_6584607257913172943_n.jpg" alt="109815166_2414754418822676_6584607257913172943_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109912828_2414754318822686_2323904395516423458_n.jpg" alt="109912828_2414754318822686_2323904395516423458_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109935959_2417056555259129_1781587378152336820_n.jpg" alt="109935959_2417056555259129_1781587378152336820_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109952077_2417056488592469_5497992546400625946_n.jpg" alt="109952077_2417056488592469_5497992546400625946_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/109994322_2414754722155979_6983985237183978739_n.jpg" alt="109994322_2414754722155979_6983985237183978739_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/110155053_2414753942156057_3152699937838269700_n.jpg" alt="110155053_2414753942156057_3152699937838269700_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/110167930_2414754505489334_4716041140463764146_n.jpg" alt="110167930_2414754505489334_4716041140463764146_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/113893888_2417056398592478_2470291669545060271_n.jpg" alt="113893888_2417056398592478_2470291669545060271_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/115956659_2418436511787800_6420279211223860342_n.jpg" alt="115956659_2418436511787800_6420279211223860342_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/116086685_2418436575121127_6803651720951371785_n.jpg" alt="116086685_2418436575121127_6803651720951371785_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/117155237_2430587243906060_708485789831607563_n.jpg" alt="117155237_2430587243906060_708485789831607563_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13392135_1577986159166177_7679732320397910228_o.jpg" alt="13392135_1577986159166177_7679732320397910228_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52358909_2036206846677437_4032404146920357888_n.jpg" alt="52358909_2036206846677437_4032404146920357888_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52368390_2036205463344242_8528327619760881664_n.jpg" alt="52368390_2036205463344242_8528327619760881664_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52569228_2038962389735216_3811970675644563456_n.jpg" alt="52569228_2038962389735216_3811970675644563456_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52582655_2032254763739312_1264978897871568896_n.jpg" alt="52582655_2032254763739312_1264978897871568896_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52598448_2038962426401879_2510643409417404416_n.jpg" alt="52598448_2038962426401879_2510643409417404416_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52654504_2032254650405990_4807671247364161536_n.jpg" alt="52654504_2032254650405990_4807671247364161536_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52835976_2036206886677433_1122840567277944832_n.jpg" alt="52835976_2036206886677433_1122840567277944832_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/83488107_2403968099901308_922161772576433615_n.jpg" alt="83488107_2403968099901308_922161772576433615_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13394018_1577986142499512_2297095471754557427_n.jpg" alt="13394018_1577986142499512_2297095471754557427_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13394152_1577986289166164_6240333816044240880_n.jpg" alt="13394152_1577986289166164_6240333816044240880_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13413031_1578100982488028_1462071199380172805_n.jpg" alt="13413031_1578100982488028_1462071199380172805_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13413632_1578100952488031_8737099389117992467_n.jpg" alt="13413632_1578100952488031_8737099389117992467_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13415474_1577986252499501_4751467340479199311_o.jpg" alt="13415474_1577986252499501_4751467340479199311_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13435474_1578100875821372_5165914032693121291_n.jpg" alt="13435474_1578100875821372_5165914032693121291_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13442273_1577986259166167_7549726599110029553_n.jpg" alt="13442273_1577986259166167_7549726599110029553_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13603494_1586801611617965_750716231829387415_o.jpg" alt="13603494_1586801611617965_750716231829387415_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13603669_1586801598284633_6031483243298935335_o.jpg" alt="13603669_1586801598284633_6031483243298935335_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13680453_1587914414840018_5851103751414908096_o.jpg" alt="13680453_1587914414840018_5851103751414908096_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13690821_1588532054778254_7418211151273235265_n.jpg" alt="13690821_1588532054778254_7418211151273235265_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13692692_1588531991444927_858447731030025935_n.jpg" alt="13692692_1588531991444927_858447731030025935_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13699990_1588532051444921_8455358746615131309_n.jpg" alt="13699990_1588532051444921_8455358746615131309_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13700961_1588978024733657_651930973803929617_o.jpg" alt="13700961_1588978024733657_651930973803929617_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13715997_1588531918111601_5439831215871082141_n.jpg" alt="13715997_1588531918111601_5439831215871082141_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13718719_1588972354734224_950856201567107102_n.jpg" alt="13718719_1588972354734224_950856201567107102_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13770432_1588531914778268_4465268175493719276_n.jpg" alt="13770432_1588531914778268_4465268175493719276_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13770442_1588972348067558_8988120736824224593_n.jpg" alt="13770442_1588972348067558_8988120736824224593_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/13775341_1588972344734225_6865144497462199022_n.jpg" alt="13775341_1588972344734225_6865144497462199022_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/15994956_1662015107429948_7802595226364297000_o.jpg" alt="15994956_1662015107429948_7802595226364297000_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/15994997_1662015174096608_4507324944766371860_o.jpg" alt="15994997_1662015174096608_4507324944766371860_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/19984065_1740536922911099_2328114774833240735_o.jpg" alt="19984065_1740536922911099_2328114774833240735_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/20024168_1740536816244443_3930002803058757217_o.jpg" alt="20024168_1740536816244443_3930002803058757217_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/27356392_1815189868779137_5589697732733443076_o.jpg" alt="27356392_1815189868779137_5589697732733443076_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/27710322_1817981088500015_7105834555614580716_o.jpg" alt="27710322_1817981088500015_7105834555614580716_o.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/321251138_3258836441037932_2437025547156034275_n.jpg" alt="321251138_3258836441037932_2437025547156034275_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/322713230_1840604146339591_1954110408090109866_n.jpg" alt="322713230_1840604146339591_1954110408090109866_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/322967291_1259690348285825_2712944624918821385_n.jpg" alt="322967291_1259690348285825_2712944624918821385_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/323137244_6428097177218113_7168040381500929417_n.jpg" alt="323137244_6428097177218113_7168040381500929417_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/323266359_679333877321663_5231539667489922558_n.jpg" alt="323266359_679333877321663_5231539667489922558_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/51880962_2032254707072651_1098578193943625728_n.jpg" alt="51880962_2032254707072651_1098578193943625728_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52024194_2032254503739338_1754237932731891712_n.jpg" alt="52024194_2032254503739338_1754237932731891712_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/52269964_2032254740405981_976537836394119168_n.jpg" alt="52269964_2032254740405981_976537836394119168_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+
+
+
+        </div>
+        <div class="photos-column">
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/323411218_5800592199996312_3305531451212796171_n.jpg" alt="323411218_5800592199996312_3305531451212796171_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/323772999_847176096366833_7651108563306196527_n.jpg" alt="323772999_847176096366833_7651108563306196527_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/324594557_736692101061495_1244024972040906539_n.jpg" alt="324594557_736692101061495_1244024972040906539_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/325968094_545999557477654_6853964075671116019_n.jpg" alt="325968094_545999557477654_6853964075671116019_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326004021_980958512874539_940963905704260353_n.jpg" alt="326004021_980958512874539_940963905704260353_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326008366_581561103328800_2695786211109263928_n.jpg" alt="326008366_581561103328800_2695786211109263928_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326040286_1937801469899663_7786600670939845995_n.jpg" alt="326040286_1937801469899663_7786600670939845995_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326045983_923093075732613_4014043993720162945_n.jpg" alt="326045983_923093075732613_4014043993720162945_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326048465_476123898049195_6941885086345542184_n.jpg" alt="326048465_476123898049195_6941885086345542184_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326051797_705392784410781_6872515799902958231_n.jpg" alt="326051797_705392784410781_6872515799902958231_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326058132_979961316313416_2326833114308047749_n.jpg" alt="326058132_979961316313416_2326833114308047749_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326060601_1211295672802961_3255296149748015054_n.jpg" alt="326060601_1211295672802961_3255296149748015054_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326100990_908631803659707_1427312755595107594_n.jpg" alt="326100990_908631803659707_1427312755595107594_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326128028_968359190808445_5416056727520420769_n.jpg" alt="326128028_968359190808445_5416056727520420769_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/326454732_557947222910845_3450315387058321466_n.jpg" alt="326454732_557947222910845_3450315387058321466_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/36872004_1896933330604790_5385402678627008512_n.jpg" alt="36872004_1896933330604790_5385402678627008512_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/36905968_1896933047271485_8804775461805621248_n.jpg" alt="36905968_1896933047271485_8804775461805621248_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/51791285_2032254613739327_4341347763066241024_n.jpg" alt="51791285_2032254613739327_4341347763066241024_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+            <div class="photo-container">
+                <picture class="photo-in-gallery">
+                    <img class="photo-gallery" loading="lazy" src="images/galleries/polkolonie/51852483_2032254573739331_1552194678193913856_n.jpg" alt="51852483_2032254573739331_1552194678193913856_n.jpg" onclick="preview(this.src)"/>
+                </picture>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="gallery-back">
+    <a href="gallery.html">Powrót</a>
+</div>
+<script type="text/javascript">
+    const preview = src => {
+        if (getComputedStyle(document.getElementById("preview-box"), null).display === 'none') {
+            document.body.classList.toggle("lock")
+            document.getElementById('show-img').src = src
+            document.getElementById("preview-box").style.display = 'flex'
+        }
+    }
+</script>
+<script type="text/javascript">
+    const closepreview = () => {
+        document.body.classList.toggle("lock")
+        document.getElementById("preview-box").style.display = 'none'
+    }
+</script>
+<div class="top" id="button-up"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col" id="contact1">
+                <h4>Jazdy dla dzieci, hipoterapia</h4>
+                <ul>
+                    <li><a href="tel:533018121"><img src="images/icons/phone.png" alt=""/></a> <a href="tel:533018121"><p>533 018 121</p></a></li>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact2">
+                <h4>Jazdy dla dorosłych, młodzieży</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact3">
+                <h4>Pensjonat dla koni, inne usługi stajni</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                    <li><a href="mailto:incendiotg@gmail.com"><img src="images/icons/email.png" alt=""/></a> <a href="mailto:incendiotg@gmail.com"><p>incendiotg@gmail.com</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Gdzie jeszcze nas znajdziesz</h4>
+                <a target="_blank" href="https://www.facebook.com/stajniatg">
+                    <div class="social">
+                        <img src="images/icons/f_logo_RGB-Black_58.png" alt="fblogo" /><span>Facebook</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            <span>Stajnia Incendio. Wszelkie prawa zastrzeżone. Uznania autorstwa <a href="https://www.facebook.com/wojtek.rejner.9"> Wojciech Rejner.</a></span>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/contact.js"></script>
+</body>
+</html>

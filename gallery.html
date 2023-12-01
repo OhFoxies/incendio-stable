@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="icon" type="image/x-icon" href="images/incendio/incendio-logo.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name='keywords' content='Pensjonat dla koni, Ptakowice, Jazda konna, Konie' />
+    <meta name='description' content='Stajnia Incendio jest kameralną stajnią, która wciąż się rozwija. Obecnie oferujemy szeroki zakres usług: jazdy rekreacyjne, jazdy sportowe, wyjazdy w teren, wyjazdy na treningi sportowe z naszymi końmi do innych stajni (na hale), hipoterapia, golenie koni, wypożyczanie koni na odznaki/zawody, transport koni, pomoc w kupnie konia, zajeżdżanie/układanie koni, werkowanie/kucie.' />
+    <meta name='author' content='Wojciech Rejner' />
+    <link rel='stylesheet' type='text/css' href='style.css'/>
+    <link rel='stylesheet' type='text/css' href='gallery.css'/>
+    <title>Stajnia Incendio - galeria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="helper" id="darker"></div>
+<nav id='navbar'>
+    <div class="nav-container">
+        <a class="logo" href="index.html">
+            <img src="images/incendio/logo.png" alt="">
+            <div class="nav-logo">
+                <div class="logo-line"></div>
+                <span class="logo-text">stajnia incendio</span>
+                <div class="logo-line"></div>
+            </div>
+        </a>
+        <div id="burger" onclick="incendio_menu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="navigation" id="menu">
+            <a href="index.html"><span class="nav-text">Home</span></a>
+            <a href="prices.html"><span class="nav-text">Cennik</span></a>
+            <a href="education.html"><span class="nav-text">Posty edukacyjne</span></a>
+            <a href="gallery.html"><span class="nav-text">Galeria</span></a>
+            <a style="cursor: pointer" onclick="contact()"><span class="nav-text">Kontakt</span></a>
+            <a href="hotel.html"><span class="nav-text">Pensjonat</span></a>
+        </div>
+    </div>
+</nav>
+
+
+<div class="gallery">
+    <div class="gallery-container">
+        <div class="gallery-category-tittle">
+            <div class="section-tittle">
+                <span> <strong>GALERIA</strong></span>
+            </div>
+            <div class="Gallery-category-container">
+                <div class="Gallery-folders">
+
+                    <a href="gallery_rides.html" class="folder">
+                        <div>
+                            <img class="folder-img"
+                                 src="images/galleries/banerzjazd.jpg"
+                                 alt="wzium"/>
+                            <span class="folder-text">Zdjęcia z jazd</span>
+                        </div>
+                    </a>
+
+                    <a href="polkolonie.html" class="folder">
+                        <div>
+                            <img class="folder-img"
+                                 src="images/galleries/koloniebaner.jpg"
+                                 alt="wzium"/>
+                            <span class="folder-text">Półkolonie</span>
+                        </div>
+                    </a>
+
+                    <a href="nasze_konie.html" class="folder">
+                        <div>
+                            <span class="folder-text">Nasze konie</span>
+                            <img class="folder-img"
+                                 src="images/galleries/koniebaner.jpg" alt="wzium"/>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="top" id="button-up"></div>
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="footer-col" id="contact1">
+                <h4>Jazdy dla dzieci, hipoterapia</h4>
+                <ul>
+                    <li><a href="tel:533018121"><img src="images/icons/phone.png" alt=""/></a> <a href="tel:533018121"><p>533 018 121</p></a></li>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact2">
+                <h4>Jazdy dla dorosłych, młodzieży</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col" id="contact3">
+                <h4>Pensjonat dla koni, inne usługi stajni</h4>
+                <ul>
+                    <li><a href="tel:691294341"><img src="images/icons/phone.png" alt=""/></a><a href="tel:691294341"><p>691 294 341</p></a></li>
+                    <li><a href="mailto:incendiotg@gmail.com"><img src="images/icons/email.png" alt=""/></a> <a href="mailto:incendiotg@gmail.com"><p>incendiotg@gmail.com</p></a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Gdzie jeszcze nas znajdziesz</h4>
+                <a target="_blank" href="https://www.facebook.com/stajniatg">
+                    <div class="social">
+                        <img src="images/icons/f_logo_RGB-Black_58.png" alt="fblogo" /><span>Facebook</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="rights">
+            <span>Stajnia Incendio. Wszelkie prawa zastrzeżone. Uznania autorstwa <a href="https://github.com/OhFoxies"> Wojciech Rejner.</a></span>
+        </div>
+    </div>
+</footer>
+<script src="scripts/menu.js"></script>
+<script src="scripts/contact.js"></script>
+</body>
+</html>
